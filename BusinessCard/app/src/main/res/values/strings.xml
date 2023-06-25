@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Business Card</string>
+    <string name="name">Dmitry Dubrovin</string>
+    <string name="title_under_name">Android Developer</string>
+    <string name="phone_num">+7(968)770-59-15</string>
+    <string name="share_link">dro0zd</string>
+    <string name="mail">dubr0vin-dk@mail.ru</string>
+</resources>
