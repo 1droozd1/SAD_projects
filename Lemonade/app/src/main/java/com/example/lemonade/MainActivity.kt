@@ -62,8 +62,13 @@ fun LemonadeApp() {
 @Composable
 private fun LemonadePicturesActivity() {
     var result by remember { mutableStateOf(1) }
+    var squeezeCount by remember { mutableStateOf(0) }
 
     if (result > 4) {result = 1}
+
+    if (result == 2) {
+        squeezeCount = (1..3).random()
+    }
 
     val imageResource = when(result) {
         1 -> R.drawable.lemon_tree
@@ -105,7 +110,10 @@ private fun LemonadePicturesActivity() {
                 .fillMaxSize()
         ) {
             Button(
-                onClick = {result += 1},
+                onClick = {
+                    if (squeezeCount == 0) {
+                        result += 1
+                    } else {squeezeCount--}},
                 shape = MaterialTheme.shapes.extraLarge,
                 colors = ButtonDefaults.buttonColors(Color(0xFFb2f6aa)),
                 contentPadding = PaddingValues(20.dp)
