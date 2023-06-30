@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Art Objects</string>
+    <string name="first_art_name">"Девятый вал"</string>
+    <string name="first_art_artist">Айвазовский И.К. (1850г.)</string>
+    <string name="second_art_name">"Тишина"</string>
+    <string name="second_art_artist">Исаак Левитан (1898г.)</string>
+    <string name="third_art_name">"Под музыку Скрябина"</string>
+    <string name="third_art_artist">Колобовников Вадим (2019г.)</string>
+    <string name="fourth_art_name">"Иисус"</string>
+    <string name="fourth_art_artist">Неизвестный художник (хз г.)</string>
+</resources>
